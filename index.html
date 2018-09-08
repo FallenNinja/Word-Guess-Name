@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zombie Word Guess</title>
+    <meta name="viewport" content="width=960px">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One|Frijole" rel="stylesheet">
+</head>
+<body>
+        <h1 class="mb-4" style="margin-top:100px; color:white; font-size:50px;font-family: 'Faster One', cursive;">Fallen Ninja's</h1>
+        <h2 class="mb-4" style="color:white; font-size:50px;font-family: 'Frijole', cursive;">Zombie Word Game</h2>
+    
+    
+        <div class="container card align-items-center border border-primary rounded-circle col-4" style="margin-top:50px;">
+       <p class="mb-4 badge badge-secondary">Escape or lose your brain!</p>
+        <form id="hangman">
+            <input class="form-control col-6 mb-4" type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
+            <input class="btn btn-danger mb-1" id="guess" name="guess" type="submit" value="Guess" />
+            <button class="btn btn-danger mb-1" id="restart" name="restart" type="button">Restart</button>
+        </form>
+        <ul id="letters" class="badge badge-secondary"></ul>
+        <p id="man" class="badge badge-secondary"></p>
+        <p id="output" class="output badge badge-secondary"></p>
+    </div>
+    
+<script src="assets/javascript/game.js"></script>
+<audio
+  src="assets/images/Kavinsky - Nightcall (Drive Original Movie Soundtrack) (Official Audio).mp3"
+  autoplay>
+</body>
+</html>
